@@ -1,0 +1,40 @@
+@font-face {
+    font-family: montserrat;
+    font-display: swap;
+    src: url(../fonts/montserrat-Arabic-Regular.woff);
+}
+
+* {
+    font-family: "montserrat";
+}
+.apexcharts-series ,
+.apexcharts-datalabels,
+.apex-charts text,
+.apexcharts-legend-text{
+    font-family: "montserrat" !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+.profileImgs img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.profileImgs img:hover {
+    cursor: zoom-in;
+}
+
+
+img.logo_basic {
+    height: 60px;
+    object-fit: contain;
+}
+
+.sponsorImg img{
+    height: 50px;
+    object-fit: contain;
+}

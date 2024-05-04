@@ -1,0 +1,147 @@
+.products,
+.about {
+    min-height: 100dvh;
+    padding-bottom: 5vh
+}
+
+.about .aboutDetails ul li:before {
+    content: "";
+    transition: all .25s ease-in-out;
+    position: absolute
+}
+
+.hero .modelForm form {
+    height: 100%;
+    padding: 25px 30px 15px
+}
+
+.hero .modelForm form .formGroup {
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.hero .modelForm form .formGroup input {
+    border: 1px solid rgba(0, 41, 72, .7);
+    outline: 0;
+    width: 100%;
+    height: 48px
+}
+
+.hero .modelForm form .formGroup label {
+    color: #fff;
+    padding-bottom: 5px;
+    font-size: 1.125rem;
+    font-weight: 700
+}
+
+.hero .modelForm {
+    background-color: #3579b3;
+    width: 60%;
+    max-width: 100%;
+    height: 100%;
+    margin-top: 120px;
+    box-shadow: 0 0 1.25rem #498fdf
+}
+
+.hero {
+    height: calc(100dvh - 88px);
+    padding-bottom: 5vh
+}
+
+@media (max-width:767px) {
+    .hero {
+        height: 100dvh
+    }
+}
+
+.hero .imgContainer {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0
+}
+
+.hero .boxText {
+    color: #fff;
+    margin-top: 88px
+}
+
+.hero .boxText .join-btn {
+    background-color: #3579b3
+}
+
+.hero .boxText .join-btn:hover {
+    background-color: #5fa3d9
+}
+
+.hero .boxText p {
+    width: 80%;
+    max-width: 100%
+}
+
+@media (max-width:767px) {
+    .hero .boxText p {
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden
+    }
+
+    .hero .boxText {
+        margin-top: 35px
+    }
+}
+
+@media (max-width:476px) {
+    .hero .boxText {
+        margin-top: 88px
+    }
+}
+
+.hero:before {
+    content: "";
+    background: #00294880;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0
+}
+
+@media (max-width:778px) {
+    .hero .modelForm {
+        width: 100%;
+        margin-top: 20px
+    }
+}
+
+.about {
+    padding-top: 5vh
+}
+
+.about .aboutDetails p {
+    opacity: .7;
+    width: 650px;
+    max-width: 100%
+}
+
+.about .aboutDetails ul li {
+    position: relative
+}
+
+.about .aboutDetails ul li:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='%235fa3d9' d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
+    width: 24px;
+    height: 24px;
+    top: 30%;
+    right: -5px;
+    transform: translateY(-50%)
+}
+
+.products {
+    background-color: #f2f0f0
+}
+
+.products .mainHeading {
+    padding: 5vh 0
+}

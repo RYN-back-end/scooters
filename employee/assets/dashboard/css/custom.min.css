@@ -1,0 +1,8 @@
+@font-face {
+    font-family: montserrat;
+    font-display: swap;
+    src: url(../fonts/montserrat-Arabic-Regular.woff);
+}
+* {
+    font-family: "montserrat";
+}
